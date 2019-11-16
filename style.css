@@ -18,6 +18,12 @@ h2{
 .Part3{
     background-color: blue;
 }
+.Part4{
+    background-color: green;
+}
+.Part5{
+    background-color: orange;
+}
 /* SCHEDULE PAGE */
 * {
     box-sizing: border-box;
