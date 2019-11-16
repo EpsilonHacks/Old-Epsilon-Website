@@ -9,6 +9,7 @@ h2{
 .Part1{
     background-image: url("bg.jpg");
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 .Part2{
     background-color: green;
@@ -17,6 +18,12 @@ h2{
 }
 .Part3{
     background-color: blue;
+}
+.Part4{
+    background-color: green;
+}
+.Part5{
+    background-color: orange;
 }
 /* SCHEDULE PAGE */
 * {
