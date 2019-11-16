@@ -9,6 +9,7 @@ h2{
 .Part1{
     background-image: url("bg.jpg");
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 .Part2{
     background-color: green;
