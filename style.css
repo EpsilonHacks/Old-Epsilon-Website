@@ -7,8 +7,13 @@ h1{
       }
 }
 h2{
-    color: white;
+    color: black;
     text-align: center;
+}
+.titles{
+    color: purple;
+    text-align: center;
+    margin-top: 0;
 }
 .Part1{
     background-image: url("bg.jpg");
@@ -37,7 +42,7 @@ h2{
   /* The actual timeline (the vertical ruler) */
   .timeline {
     position: relative;
-    max-width: 1200px;
+    max-width: 25000px;
     margin: 0 auto;
   }
   
@@ -124,6 +129,7 @@ h2{
     background-color: white;
     position: relative;
     border-radius: 6px;
+    height: 60px;
   }
   
   /* Media queries - Responsive timeline on screens less than 600px wide */
