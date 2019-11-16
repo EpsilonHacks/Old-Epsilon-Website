@@ -1,8 +1,9 @@
 h1{
-    color: black;
+    color: white;
 }
 .Part1{
-    background-image: 
+    background-image: url("bg.jpg");
+    background-size: 100%;
 }
 .Part2{
     background-color: green;
