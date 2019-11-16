@@ -7,6 +7,8 @@ h1{
 }
 .Part2{
     background-color: green;
+    background-color: #474e5d;
+    font-family: Helvetica, sans-serif;
 }
 .Part3{
     background-color: gold;
@@ -14,11 +16,6 @@ h1{
 /* SCHEDULE PAGE */
 * {
     box-sizing: border-box;
-  }
-  
-  body {
-    background-color: #474e5d;
-    font-family: Helvetica, sans-serif;
   }
   
   /* The actual timeline (the vertical ruler) */
