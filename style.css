@@ -1,5 +1,10 @@
 h1{
     color: white;
+    text-align: center;
+}
+h2{
+    color: white;
+    text-align: center;
 }
 .Part1{
     background-image: url("bg.jpg");
