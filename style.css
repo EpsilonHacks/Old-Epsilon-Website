@@ -22,7 +22,7 @@ h2{
 .Part2{
     background-color: green;
     background-color: #474e5d;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Libre Baskerville', serif;
 }
 .Part3{
     background-color: blue;
@@ -163,6 +163,7 @@ h2{
     left: 0%;
     }
   }
+<<<<<<< HEAD
 /*  NAV BAR STYLING START */
 * {
   margin: 0;
@@ -200,3 +201,8 @@ nav {
   font-size: 14px;
 }
 /* NAV BAR STYLING END */
+=======
+
+
+
+>>>>>>> 9ce7d19c500ea34efaebcc12acbd4a92863710c4
