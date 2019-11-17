@@ -8,10 +8,68 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
         <link href='https://fonts.googleapis.com/css?family=Montserrat|Cardo' rel='stylesheet' type='text/css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
         <title>Epsilon Hacks</title>
     </head>
 
     <body>
+        <nav class="nav">
+            <div class="container">
+                <div class="logo">
+                    <a href="#">Your Logo</a>
+                </div>
+                <div id="mainListDiv" class="main_list">
+                    <ul class="navlinks">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <span class="navTrigger">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span>
+            </div>
+        </nav>
+    
+        <section class="home">
+        </section>
+        <div style="height: 1000px">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!--COMMENT OUT THE NAVBAR
         <header class="main_h">
 
             <div class="row">
@@ -33,8 +91,8 @@
                     </ul>
                 </nav>
         
-            </div> <!-- / row -->
-        
+            </div> / row -->
+        <!--
         </header>
         
         <div class="hero">
@@ -43,11 +101,10 @@
             <h2>DATE: MARCH 2020</h2>
             <h2>LOCATION: TBD</h2>
             
-        <!--
+        
             <div class="mouse">
                 <span></span>
             </div>
-          -->
         </div>
         
         <div class="row content">
@@ -58,8 +115,9 @@
             <h1 class="sec03">Section 03</h1>
             <p>Date: March 2020</p>
         
-
+        -->
         <!--Part1-->
+        <!--COMMENT OUT THE WAVE
         <section id="home"> 
             <div class="Part1">  
                 <div class="waves">
@@ -135,6 +193,7 @@
                   </div>
             </div>
         </section>
+                -->
 
 
 
@@ -278,7 +337,7 @@
 
 
 
-           <!--part 4-->>
+           <!--part 4-->
            <section>
             <div class="Part4">
                 <h1>Prizes</h1>
