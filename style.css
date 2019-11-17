@@ -2,7 +2,7 @@
 h1{
     color: white;
     text-align: center;
-    font-size: 100px;
+    font-size: 40px;
       }
 
 h2{
@@ -170,6 +170,7 @@ h2{
   box-sizing: border-box;
 }
 nav {
+  position: sticky;
   display: flex;
   justify-content: space-around;
   align-items: center;
