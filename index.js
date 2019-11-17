@@ -50,34 +50,12 @@ $('nav a').click(function(event) {
 
 
 
-//NAVIGATION BAR #1
-/*
-
-$(window).on('scroll', function(){
-    if($(window).scrollTop()) {
-        $('nav').addClass('black');
-    } else{
-        $('nav').removeClass('black')
-    }
-})
-
-//RESPONSIVE STUFF
-
-/* only execute this script when the document is ready 
-$(document).ready(function(){
-    /* function called when you click of the button 
-    $("button").click(function(){
-        
-        /* this if else to change the text in the button 
-        if($("button").text() == "☰"){
-         $("button").text("🞬");
-        }else{
-          $("button").text("☰");
-        }
-      
-      /* this function toggle the visibility of our "li" elements 
-      $("li").toggle("slow");
-    });
-  });
 
 //NAVIGATION BAR #2 ending */
+$('.navTrigger').click(function () {
+    $(this).toggleClass('active');
+    console.log("Clicked menu");
+    $("#mainListDiv").toggleClass("show_list");
+    $("#mainListDiv").fadeIn();
+
+});
