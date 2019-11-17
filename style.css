@@ -190,7 +190,7 @@ p {
   padding-bottom: 12px;
   line-height: 3;
 }
-
+/*
 .mouse {
   display: block;
   margin: 0 auto;
@@ -221,7 +221,7 @@ p {
   -webkit-animation-name: scroll;
   animation-name: scroll;
 }
-
+*/
 @-webkit-keyframes scroll {
   0% {
     opacity: 1;
@@ -251,141 +251,9 @@ p {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*NAVBAR #1 START*/
-
-/*
-body{
-  margin: 0;
-  padding: 0;
-  font-family: 'Poppins', sans-serif;
-}
-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  padding: 10px 100px;
-  box-sizing: border-box;
-  transition: .3s;
-}
-nav.black{
-  background: rgba(0, 0, 0, 0.8);
-  height: 100px;
-  padding: 10px 100px;
-}
-nav .logo{
-  padding: 22px 20px;
-  height: 80px;
-  float: left;
-  font-size: 24px;
-  transition: .3s;
-}
-nav.black .logo{
-  color: #fff;
-}
-nav ul{
-  list-style: none;
-  float: right;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-nav ul li{
-  list-style: none;
-}
-nav ul li a{
-  line-height: 80px;
-  color: #151515;
-  padding: 12px 30px;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: .3s;
-}
-nav.black ul li a{
-  color: #fff
-}
-nav ul li a:focus {
-  outline: none;
-}
-nav ul li a.active{
-  background: #E2472F;
-  color: #fff;
-  border-radius: 6px;
-}
-nav ul li a:hover{
-  color: white;
-  background-color: black;
-}
-button{
-  display: none;
-}
-/* RESPONSIVE STUFF 
-@media only screen and (max-width: 320px){
-  ul{
-    flex-direction: column;
-  }
-  li{
-    margin: 0;
-  }
-  a{
-    display: block;
-  }
-  button{
-    /*makes the button visible
-    display: block;
-    
-    /*since we are here, we can style it a little bit
-    padding: 2vw;
-    font-size: 3vh;
-    background-color: #AFE0FF;
-    border: none;
-    
-    /*outline none removes the default blue border that appears anytime you click on the button
-    outline: none;
-    
-    cursor: pointer;
-    align-self: flex-start;
-
-  }
-  */
-
-/*NAVBAR #1 END */
-
-
-
-
-
-
-
-
-
-
+/*NAV BAR END*/
 h1{
-    color: white;
+    color: greenyellow;
     text-align: center;
     font-size: 40px;
       }
@@ -418,19 +286,29 @@ h2{
 .Part5{
     background-color: grey;
 }
-/* SCHEDULE PAGE */
+
+
+
+
+
+
+
+
+
+/* SCHEDULE PAGE 
+
 * {
     box-sizing: border-box;
   }
   
-  /* The actual timeline (the vertical ruler) */
+  /* The actual timeline (the vertical ruler) 
   .timeline {
     position: relative;
     max-width: 25000px;
     margin: 0 auto;
   }
   
-  /* The actual timeline (the vertical ruler) */
+  /* The actual timeline (the vertical ruler) 
   .timeline::after {
     content: '';
     position: absolute;
@@ -442,7 +320,7 @@ h2{
     margin-left: -3px;
   }
   
-  /* Container around content */
+  /* Container around content 
   .container {
     padding: 10px 40px;
     position: relative;
@@ -450,7 +328,7 @@ h2{
     width: 50%;
   }
   
-  /* The circles on the timeline */
+  /* The circles on the timeline 
   .container::after {
     content: '';
     position: absolute;
@@ -464,17 +342,17 @@ h2{
     z-index: 1;
   }
   
-  /* Place the container to the left */
+  /* Place the container to the left 
   .left {
     left: 0;
   }
   
-  /* Place the container to the right */
+  /* Place the container to the right 
   .right {
     left: 50%;
   }
   
-  /* Add arrows to the left container (pointing right) */
+  /* Add arrows to the left container (pointing right) 
   .left::before {
     content: " ";
     height: 0;
@@ -488,7 +366,7 @@ h2{
     border-color: transparent transparent transparent white;
   }
   
-  /* Add arrows to the right container (pointing left) */
+  /* Add arrows to the right container (pointing left) 
   .right::before {
     content: " ";
     height: 0;
@@ -502,12 +380,12 @@ h2{
     border-color: transparent white transparent transparent;
   }
   
-  /* Fix the circle for containers on the right side */
+  /* Fix the circle for containers on the right side 
   .right::after {
     left: -16px;
   }
   
-  /* The actual content */
+  /* The actual content 
   .content {
     padding: 20px 30px;
     background-color: white;
@@ -516,21 +394,21 @@ h2{
     height: 60px;
   }
   
-  /* Media queries - Responsive timeline on screens less than 600px wide */
+  /* Media queries - Responsive timeline on screens less than 600px wide 
   @media screen and (max-width: 600px) {
-    /* Place the timelime to the left */
+    /* Place the timelime to the left 
     .timeline::after {
     left: 31px;
     }
     
-    /* Full-width containers */
+    /* Full-width containers 
     .container {
     width: 100%;
     padding-left: 70px;
     padding-right: 25px;
     }
     
-    /* Make sure that all arrows are pointing leftwards */
+    /* Make sure that all arrows are pointing leftwards 
     .container::before {
     left: 60px;
     border: medium solid white;
@@ -538,16 +416,26 @@ h2{
     border-color: transparent white transparent transparent;
     }
   
-    /* Make sure all circles are at the same spot */
+    /* Make sure all circles are at the same spot 
     .left::after, .right::after {
     left: 15px;
     }
     
-    /* Make all right containers behave like the left ones */
+    /* Make all right containers behave like the left ones 
     .right {
     left: 0%;
     }
   }
+*/
+
+
+
+
+
+
+
+
+
   /* Waves */
   .Part1{
     background: #0d9ca3;
