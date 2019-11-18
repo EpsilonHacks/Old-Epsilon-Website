@@ -59,7 +59,7 @@
 nav {
   float: right;
   width: 60%;
-  z-index: 500;
+  z-index: 1;
 }
 @media only screen and (max-width: 766px) {
   nav {
