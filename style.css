@@ -322,11 +322,14 @@ h2{
     color: black;
     text-align: center;
 }
+/*
 .titles{
     color: purple;
     text-align: center;
     margin-top: 0;
 }
+*/
+/*
 .Part1{
     background-image: url("bg.jpg");
     background-size: 100%;
@@ -337,6 +340,7 @@ h2{
     background-color: silver;
     font-family: 'Libre Baskerville', serif;
 }
+
 .Part3{
     background-color: silver;
 }
@@ -346,7 +350,7 @@ h2{
 .Part5{
     background-color: grey;
 }
-
+*/
   @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
   html,
   body {
@@ -375,16 +379,18 @@ h2{
       width: auto;
       height: auto;
       padding-left: 3rem;
+      padding-top: 2rem;
   }
   
   .nav div.logo a {
       text-decoration: none;
       color: #fff;
       font-size: 2.5rem;
+      padding-top: 2rem;
   }
   
   .nav div.logo a:hover {
-      color: #00E676;
+      color: black;
   }
   
   .nav div.main_list {
@@ -416,7 +422,7 @@ h2{
   }
   
   .nav div.main_list ul li a:hover {
-      color: #00E676;
+      color: black;
   }
   
   
