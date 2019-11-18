@@ -322,14 +322,14 @@ h2{
     color: black;
     text-align: center;
 }
-/*
+
 .titles{
     color: purple;
     text-align: center;
     margin-top: 0;
 }
-*/
-/*
+
+
 .Part1{
     background-image: url("bg.jpg");
     background-size: 100%;
@@ -350,7 +350,7 @@ h2{
 .Part5{
     background-color: grey;
 }
-*/
+
   @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
   html,
   body {
