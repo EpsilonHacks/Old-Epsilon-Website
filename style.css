@@ -206,9 +206,10 @@ p {
   
   
   .date {
-    width: 17%;
+    width: 20%;
     padding: 15% 1% 0 0 ;
     float: left;
+    font-size: 40px;
   }
   
   .date h3 {
@@ -236,6 +237,7 @@ p {
     border-bottom: 1px dashed #ccc;
     line-height: 22px;
     transition: ease .4s all;
+    font-size: 25px;
   }
   
   .events-detail li:hover {
@@ -244,6 +246,7 @@ p {
   
   .event-time {
     font-weight: 900;
+    font-size: 35px;
   }
   
   .events-detail li a {
@@ -721,6 +724,26 @@ h2{
     text-align: center;
     position: relative;
     bottom: -180px;
-    display: flexbox;
-    
   }
+  .event-name{
+    font-size: 30px;
+  }
+  .ml6 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.3em;
+}
+
+.ml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml6 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
