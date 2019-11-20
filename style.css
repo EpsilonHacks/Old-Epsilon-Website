@@ -223,11 +223,11 @@ p {
   }
   
   .date h3 {
-    font-size: 1.5em;
+    font-size: 1.0em;
   }
   
   .date p {
-    font-size: .8em;
+    font-size: .6em;
   }
   
   .events {
@@ -247,7 +247,7 @@ p {
     border-bottom: 1px dashed #ccc;
     line-height: 22px;
     transition: ease .4s all;
-    font-size: 25px;
+    font-size: 15px;
   }
   
   .events-detail li:hover {
@@ -345,27 +345,6 @@ h2{
     margin-top: 0;
 }
 
-
-.Part1{
-    background-image: url("bg.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.Part2{
-    background-color: silver;
-    background-color: silver;
-    font-family: 'Libre Baskerville', serif;
-}
-
-.Part3{
-    background-color: #00B6B2;
-}
-.Part4{
-    background-color: wheat;
-}
-.Part5{
-    background-color: grey;
-}
 
   @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
   html,
@@ -721,8 +700,6 @@ h2{
   
   
   
-  
-  
   .lgo{
     text-align: center;
     position: relative;
@@ -730,6 +707,8 @@ h2{
   }
   .event-name{
     font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+
   }
 .tag{
   margin-top: 180px;
