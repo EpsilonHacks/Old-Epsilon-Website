@@ -732,7 +732,9 @@ h2{
   position: relative;
   font-weight: 900;
   font-size: 3.3em;
-  font-color: white;
+  color: yellow;
+  padding-left: 500px;
+  margin-top: 900px;
 }
 
 .ml6 .text-wrapper {
