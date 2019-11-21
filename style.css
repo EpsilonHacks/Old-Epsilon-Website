@@ -786,3 +786,7 @@ svg{
   padding-bottom: 15%;
   color: black;
 }
+.text h1{
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
