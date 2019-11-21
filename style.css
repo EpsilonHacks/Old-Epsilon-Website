@@ -69,7 +69,7 @@ html, body{
 nav {
   float: right;
   width: 60%;
-  z-index: 1;
+  z-index: 100;
 }
 @media only screen and (max-width: 766px) {
   nav {
@@ -726,7 +726,7 @@ div.waves{
   bottom: 0;
   /*height: 100%;*/
   position: absolute;
-  z-index: 99;
+  z-index: 1;
 }
 .tutorial-link{
   font-family: sans-serif;
