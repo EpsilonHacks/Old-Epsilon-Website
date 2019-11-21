@@ -4,10 +4,6 @@ html, body{
 }
 
 
-
-
-
-
 .hero h2{
   color: white;
   font-size: 20px;
@@ -777,4 +773,16 @@ svg{
     left:0px; 
     top:0px;}
 }
-
+#About{
+  background-color: white;
+  height: 101%;
+  width: 100%;
+}
+.text{
+  margin: 0;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  color: black;
+}
