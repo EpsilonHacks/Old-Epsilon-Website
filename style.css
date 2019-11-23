@@ -790,3 +790,10 @@ svg{
   font-family: 'Poppins', sans-serif;
   color: black;
 }
+.ScheduleHeading{
+  color: black;
+  font-family: 'poppins', sans-serif;
+}
+#Schedule{
+  padding-top: 2%;
+}
