@@ -797,9 +797,17 @@ svg{
 #Schedule{
   padding-top: 2%;
 }
-
-
-
+#button{
+  border: 2px solid#ffff;
+padding-left: 20px;
+padding-right: 20px;
+color: white;
+}
+#button:hover{
+  border: 2.5px solid#ffff;
+  background-color: white;
+  color: #4D92DD;
+}
 
 
 
