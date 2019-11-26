@@ -885,16 +885,19 @@ color: #4D92DD;
 
 
 p.accordion {
-  background-color: #eee;
-  color: #444;
+  background-color: #A1DDEF;
+  color: black;
   cursor: pointer;
   padding: 18px;
   width: 100%;
-  text-align: left;
+  text-align: center;
   border: none;
   outline: none;
-  transition: 0.4s;
+  transition: 0.5s;
   margin-bottom:10px;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 /* Add a background color to the accordion if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -906,7 +909,7 @@ p.accordion.active, p.accordion:hover {
 p.accordion:after {
   content: '\2795'; 
   font-size: 13px;
-  color: #777;
+  color: #A1DDEF;
   float: right;
   margin-left: 5px;
 }
@@ -921,12 +924,16 @@ p.accordion.active:after {
 div.panel {
   padding: 0 18px;
   background-color: white;
+  color: black;
+  font-family: 'poppins', sans-serif;
+  font-size: 20px;
   max-height: 0;
   overflow: hidden;
   transition: 0.4s ease-in-out;
   opacity: 0;
   margin-bottom:10px;
   font-size: 20px;
+  text-align: center;
 }
 
 div.panel.show {
@@ -936,10 +943,28 @@ div.panel.show {
 .faqTitle{
   font-size: 30px;
   text-align: center;
+  color: black;
+  font-family: 'poppins', sans-serif;
 }
 #FAQ{
   padding-top: 100px ;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
