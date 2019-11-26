@@ -2,8 +2,6 @@ html, body{
   margin: 0;
   padding: 0;
 }
-
-
 .hero h2{
   color: white;
   font-size: 20px;
@@ -678,7 +676,8 @@ h2{
   
   .affix {
       padding: 0;
-      background-color: #111;
+      background-color: #63CEE4 
+      ;
   }
   
   
@@ -797,8 +796,8 @@ color: #4D92DD;
 }
 #button:hover{
   border: 2.5px solid#ffff;
-  background-color: gray;
-  color: white;
+  background-color: #A1DDEF;
+  color: black;
 }
 
 
@@ -956,13 +955,18 @@ div.panel.show {
 }
 .spons{
 color: white;
+padding-left: 25%;
+padding-right: 25%;
+text-align: center;
+padding-top: 16%;
+padding-bottom: 16%;
 }
 .pdf{
   color: white;
   font-size: 20px;
   position: absolute;
-  left: 580px;
-  border: 2px solid#ffff;
+  left: 43.5%;
+  border: 2px solid #A1DDEF;
 }
 
 
