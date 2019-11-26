@@ -950,9 +950,20 @@ div.panel.show {
   padding-top: 100px ;
 }
 
-
-
-
+#sponsor{
+  background-color:#4D92DD;
+  padding-bottom: 100px;
+}
+.spons{
+color: white;
+}
+.pdf{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  left: 580px;
+  border: 2px solid#ffff;
+}
 
 
 
