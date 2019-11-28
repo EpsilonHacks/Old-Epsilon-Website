@@ -897,6 +897,8 @@ p.accordion {
   width: 50%;
   margin-left: 25%;
   margin-right: 25%;
+  font-family: 'poppins', sans-serif;
+  font-size: 25px;
 }
 
 /* Add a background color to the accordion if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
