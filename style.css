@@ -1089,8 +1089,14 @@ padding-bottom: 6%;
   color: black;
   font-size: 20px;
 }
-
-
+.abt{
+  font-family: 'poppins', sans-serif;
+  font-size: 25px;
+}
+.he{
+  font-family: 'poppins', sans-serif;
+  font-size: 35px;
+}
 
 
 
