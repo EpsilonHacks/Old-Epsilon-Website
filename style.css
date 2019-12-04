@@ -683,11 +683,10 @@ h2{
   
   
   
-  
   .lgo{
     text-align: center;
     position: relative;
-    bottom: -180px;
+    top: 110px;
   }
   .event-name{
     font-size: 30px;
@@ -695,7 +694,7 @@ h2{
 
   }
 .tag{
-  margin-top: 180px;
+  margin-top: 125px;
   margin-left: 375px;
   color: white;
   font-size: 42px;
