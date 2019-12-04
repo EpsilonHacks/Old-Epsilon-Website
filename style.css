@@ -761,7 +761,7 @@ svg{
     top:0px;}
 }
 #About{
-  background-color: white;
+  background-color: #4D92DD;
   height: 101%;
   width: 100%;
 }
@@ -770,12 +770,12 @@ svg{
   padding-left: 15%;
   padding-right: 15%;
   padding-top: 5%;
-  padding-bottom: 15%;
-  color: black;
+  padding-bottom: 5%;
+  color: white;
 }
 .text h1{
   font-family: 'Poppins', sans-serif;
-  color: black;
+  color: white;
   text-align: center;
 }
 .ScheduleHeading{
@@ -951,7 +951,7 @@ div.panel.show {
   font-family: 'poppins', sans-serif;
 }
 #FAQ{
-  padding-top: 0px ;
+  padding-top: 0px;
 }
 
 #sponsor{
@@ -1101,11 +1101,11 @@ padding-bottom: 6%;
   font-size: 35px;
 }
 
-
-.datelocation{
-  padding-top: 0px;
-  margin-left: 25%;
-  margin-right: 25%;
+#pressure{
+  text-align: center;
+  font-family: 'Tomorrow', sans-serif;
+  font-size: 45px;
+  color: #4D92DD;
 }
 
 
