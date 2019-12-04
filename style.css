@@ -825,7 +825,10 @@ color: #4D92DD;
   padding: 40px;
   color: #333;
   overflow: hidden;
+  font-size: 30px;
+  font-family: 'poppins' sans-serif;
 }
+/*
 #team .team-section h1{
   font-size: 25px;
   text-transform: uppercase;
@@ -833,6 +836,7 @@ color: #4D92DD;
   border-bottom: 4px solid;
   padding-bottom: 10px;
 }
+*/
 #team .pe{
   float: left;
   width: calc(100% /3);
@@ -948,7 +952,7 @@ div.panel.show {
   font-family: 'poppins', sans-serif;
 }
 #FAQ{
-  padding-top: 100px ;
+  padding-top: 0px ;
 }
 
 #sponsor{
@@ -995,7 +999,7 @@ padding-bottom: 6%;
 #social {
   margin: 20px 10px;
   text-align: center;
-  padding-top: 1100px;
+  padding-top: 0px;
   padding-bottom: 50px;
 }
 
@@ -1099,8 +1103,11 @@ padding-bottom: 6%;
 }
 
 
-
-
+.datelocation{
+  padding-top: 0px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
 
 
 
