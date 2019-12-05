@@ -992,7 +992,25 @@ padding-bottom: 6%;
   left: 43.5%;
   border: 2px solid #A1DDEF;
 }
+@media screen and (max-width:600px){
 
+.pdf{
+  background: #A1DDEF;
+  color: black;
+  font-size: 20px;
+  position: relative;
+  left: 25.5%;
+  border: 2px solid #A1DDEF;
+  border-width: 3px;
+}
+.pdf:hover{
+  background-color: #4D92DD;
+  font-size: 20px;
+  position: relative;
+  left: 25.5%;
+  border: 2px solid #A1DDEF;
+}
+}
 
 
 
