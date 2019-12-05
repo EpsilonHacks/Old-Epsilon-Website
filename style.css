@@ -721,6 +721,11 @@ div.waves{
   position: absolute;
   z-index: 1;
 }
+@media screen and (max-width:600px){
+  div.waves{
+    display: none;
+  }
+}
 .tutorial-link{
   font-family: sans-serif;
   text-align: center;
