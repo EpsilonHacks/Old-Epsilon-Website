@@ -700,6 +700,16 @@ h2{
   font-size: 42px;
   font-family: 'Poppins', sans-serif;
 }
+@media screen and (max-width:600px){
+   .tag{
+    margin-top: 125px;
+  margin-left: 75px;
+  color: white;
+  font-size: 42px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 4vw;
+  }
+}
 body{
   height: 100%;
   margin: 0;
