@@ -50,7 +50,7 @@ $('nav a').click(function(event) {
 
 
 
-/*
+
 $('.navTrigger').click(function () {
     $(this).toggleClass('active');
     console.log("Clicked menu");
@@ -58,7 +58,7 @@ $('.navTrigger').click(function () {
     $("#mainListDiv").fadeIn();
 
 });
-*/
+
 
 
 
