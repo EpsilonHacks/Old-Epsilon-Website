@@ -833,6 +833,7 @@ color: #4D92DD;
   background-color:#4D92DD;
   text-align: center;
 }
+
 #team .inner-width{
   max-width: 1200px;
   margin: auto;
@@ -851,6 +852,7 @@ color: #4D92DD;
   padding-bottom: 10px;
 }
 */
+
 #team .pe{
   float: left;
   width: calc(100% /3);
@@ -861,6 +863,7 @@ color: #4D92DD;
 #team .pe:hover{
   background: #ddd;
 }
+
 #team .pe img{
   width: 220px;
   height: 220px;
@@ -900,7 +903,9 @@ color: #4D92DD;
   }
 }
 
-
+.fred{
+  transform: rotate(180deg);
+}
 p.accordion {
   background-color: #A1DDEF;
   color: black;
