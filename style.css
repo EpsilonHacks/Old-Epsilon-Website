@@ -1030,6 +1030,9 @@ padding-bottom: 6%;
 
 #social {
   margin: 20px 10px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
   text-align: center;
   padding-top: 0px;
   padding-bottom: 50px;
@@ -1124,6 +1127,7 @@ padding-bottom: 6%;
 #social p{
   font-family: 'poppins', sans-serif;
   color: black;
+  padding-top: 20px;
   font-size: 20px;
 }
 .abt{
