@@ -823,7 +823,9 @@ color: #4D92DD;
 
 
 
-
+#team{
+  padding: 5%;
+}
 
 #team body{
   margin: 0;
@@ -923,6 +925,7 @@ p.accordion {
   margin-right: 25%;
   font-family: 'poppins', sans-serif;
   font-size: 25px;
+  display: inline-block;
 }
 
 /* Add a background color to the accordion if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -966,18 +969,17 @@ div.panel.show {
   max-height: 500px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
 }
 .faqTitle{
-  font-size: 30px;
   text-align: center;
   color: black;
   font-family: 'poppins', sans-serif;
 }
 #FAQ{
-  padding-top: 0px;
+  padding: 5%;
 }
 
 #sponsor{
   background-color: #4D92DD;
-  padding-bottom: 100px;
+  padding: 5%;
 }
 .spons{
 color: white;
@@ -1148,8 +1150,9 @@ padding-bottom: 6%;
 #pressure{
   text-align: center;
   font-family: 'poppins', sans-serif;
-  font-size: 45px;
+  font-size: 65px;
   color: #4D92DD;
+  padding: 5%;
 }
 .anapic{
   height: 10px;
@@ -1178,6 +1181,7 @@ padding-bottom: 6%;
 }
 #sched{
   background-color: #4D92DD;
+  padding: 5%;
 }
 #sched
 body {
@@ -1190,7 +1194,7 @@ body {
 h1 {
   text-align: center;
   font-weight: 300;
-  color: black
+  color: white
 }
 #sched
 h1 span {
