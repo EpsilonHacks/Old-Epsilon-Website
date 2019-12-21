@@ -779,6 +779,7 @@ svg{
   background-color: #4D92DD;
   height: 101%;
   width: 100%;
+  padding: 5%;
 }
 .text{
   margin: 0;
@@ -830,7 +831,7 @@ color: #4D92DD;
   font-family: 'poppins', sans-serif;
 }
 #team .team-section{
-  background-color:#4D92DD;
+  background-color:white;
   text-align: center;
 }
 
@@ -1156,7 +1157,9 @@ padding-bottom: 6%;
 }
 
 
-
+#team{
+  background-color: white;
+}
 
 
 
@@ -1172,6 +1175,9 @@ padding-bottom: 6%;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   outline: none;
+}
+#sched{
+  background-color: #4D92DD;
 }
 #sched
 body {
@@ -1248,7 +1254,7 @@ h1 span {
 .timeline-content {
   width: 95%;
   padding: 0 15px;
-  color: #666
+  color: white
 }
 #sched
 .timeline-content h3 {
@@ -1260,17 +1266,18 @@ h1 span {
 #sched
 .timeline-content span {
   font-size: 15px;
-  color: #a4a4a4;
+  color: white;
 }
 #sched
 .timeline-content p {
   font-size: 14px;
   line-height: 1.5em;
   word-spacing: 1px;
-  color: #888;
+  color: white;
 }
 #sched .okboomer{
   text-align: center;
+  color: white;
 }
 
 
