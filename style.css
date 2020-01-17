@@ -1310,6 +1310,25 @@ h1{
   text-align: center;
   font-size: 30px;
 }
+/*
+@media  screen and(width: 320px){
+  .locate{
+    text-align: center;
+    position: relative;
+    bottom: 115px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  #loc{
+    text-align: center;
+    font-size: 30px;
+    left: -200%;
+    right: 25%;
+    overflow-x: hidden;
+  }
+}
+*/
+
 
 
 
