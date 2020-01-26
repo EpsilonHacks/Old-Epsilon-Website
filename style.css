@@ -1007,7 +1007,7 @@ padding-bottom: 5%;
   color: black;
   font-size: 20px;
   position: relative;
-  left: 25.5%;
+  left: 25%;
   border: 2px solid #A1DDEF;
   border-width: 3px;
 }
@@ -1375,5 +1375,54 @@ h6 > a:focus:before {
 
 
 
-
-
+/*RESPONSIVE PARTNERS PAGE LOGOS START*/
+#sponsorcontainer{
+  width: 100%;
+    max-width: 960px;
+    border: none;
+    margin: 20px auto;
+  }
+  .box {
+    display: inline-block;
+    padding: 10px 60px;
+  }
+  .box img {
+    padding: 0 2px;
+  }
+  @media only screen and (max-width: 950px) {
+    #sponsorcontainer {
+      margin: 10px 20px;
+      width:95%;
+    } 
+    .box {
+    padding: 10px 20px;
+  }
+  }
+  @media only screen and (max-width: 850px) {
+    #container {
+      margin: 10px 90px;
+      width:58%;
+    } 
+    .box {
+      padding: 10px 30px;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    #sponsorcontainer {
+      margin: 10px 50px;
+      width:70%;
+    } 
+    .box {
+      padding: 10px 50px;
+    }
+  }
+  @media only screen and (max-width: 750px) {
+    #sponsorcontainer {
+      margin: 10px 90px;
+      width:75%;
+    } 
+    .box {
+      padding: 10px 50px;
+    }
+  }
+/*RESPONSIVE PARTNERS PAGE LOGOS END*/
