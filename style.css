@@ -1407,7 +1407,7 @@ h6 > a:focus:before {
   @media only screen and (max-width: 850px) {
     #container {
       margin: 10px 90px;
-      width:58%;
+      width:8%;
     } 
     .box {
       padding: 10px 30px;
