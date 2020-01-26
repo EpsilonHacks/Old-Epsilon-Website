@@ -1316,16 +1316,17 @@ h1{
 }
 @media screen and (max-width:1025px){
    .locate{
-    font-size: 30px;
-    margin: 0;
-    padding: 0;
-    height: 30px;
-    margin-right: 20%;
+    margin-top: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 5vw;
     text-align: center;
 
   }
   #date{
-    font-size: 2.5vh
+    font-size: 5vw
   }
 }
 
