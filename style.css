@@ -1332,7 +1332,7 @@ h1{
 
 
 #ani {
-  position: fixed;
+  position: absolute;
   top: 5%;
   height: 60%;
   left: 20%;
