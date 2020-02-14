@@ -1420,27 +1420,7 @@ align-self: center;
 
 
 
-.spons{
-  text-align: center;
-  text-decoration: none;
-  font-family: "poppins", sans-serif;
-  color: white;
-  font-size: 15px;
-  padding-top: 2vw;
-  text-align: center;
-  }
-  @media only screen and (max-device-width: 1025px) {
 
-    .spons{
-        text-align: justify center;
-        text-decoration: none;
-        font-family: "poppins", sans-serif;
-        color: white;
-        font-size: 15px;
-        margin: 0;
-        padding: 0;
-    }
-  }
 
 
   
