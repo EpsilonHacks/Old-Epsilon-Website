@@ -1387,17 +1387,17 @@ h6 > a:focus:before {
 }
 /*RESPONSIVE PARTNERS PAGE LOGOS END*/
 .boxed {
-  border: 2px solid ;
+  border: 4px solid ;
   border-radius: 30px;
   border-color: linear-gradient(to bottom, #33ccff 0%, #66ffcc 100%);
 } 
+/*
 .boxed:hover{
-  border: 2px solid white;
+  border: 4px   solid white;
   border-radius: 30px;
   background: linear-gradient(to bottom, #33ccff 0%, #66ffcc 100%)
 }
-
-
+*/
 
 
 
