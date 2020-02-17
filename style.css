@@ -694,6 +694,7 @@ h2{
     font-family: 'Poppins', sans-serif;
 
   }
+  /*
 .tag{
   margin-top: 125px;
   margin-left: 375px;
@@ -712,58 +713,21 @@ h2{
   text-align: center;
   }
 }
+*/
+.tag{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 20%;
+  color: white;
+}
 body{
   height: 100%;
   margin: 0;
 }
-div.waves{
-  width: 100%;
-  bottom: 0;
-  /*height: 100%;*/
-  position: absolute;
-  z-index: 1;
-}
-@media screen and (max-width:600px){
-  div.waves{
-    display: none;
-  }
-}
-.tutorial-link{
-  font-family: sans-serif;
-  text-align: center;
-  color: #f3f3f3;
-}
-.tutorial-link h2{
-  background: linear-gradient(90deg, #00b4db 0%, #ffffff 50%, #0083b0 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  
-}
-.tutorial-link a{
-  text-decoration: none;
-  background: linear-gradient(90deg, #00b4db 0%, #ffffff 50%, #0083b0 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  
-}
-
-svg{
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  animation-name: move-left;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-.spacer{
-  height: 100px;
-  width: 100%;
-}
-
 @keyframes example {
   0%   {
     left:0px;
@@ -1296,6 +1260,7 @@ h1{
 
   
 }
+/*
 #date{
   font-size: 4vh;
 }
@@ -1313,6 +1278,18 @@ h1{
   #date{
     font-size: 5vw
   }
+}
+*/
+
+.locate{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 0%;
+  color: white;
 }
 
 
