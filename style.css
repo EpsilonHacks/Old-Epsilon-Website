@@ -1359,8 +1359,16 @@ h6 > a:focus:before {
 
 
 /*RESPONSIVE PARTNERS PAGE LOGOS START*/
-
+/*
 .responsive {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+*/
+
+.responsive{
+  display: inline-block;
   width: 100%;
   max-width: 200px;
   height: auto;
