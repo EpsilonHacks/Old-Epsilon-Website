@@ -1447,4 +1447,7 @@ h6 > a:focus:before {
       padding-top: 5%;
       padding-bottom: 5%;
   }
+  .abt{
+    font-size: 17px;
+  }
 }
