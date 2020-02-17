@@ -719,10 +719,16 @@ h2{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  font-size: 25px;
+  font-size: 30px;
   font-family: 'Poppins', sans-serif;
-  padding-top: 20%;
+  margin-top: 10%;
   color: white;
+}
+@media only screen and (max-device-width: 1025px) {
+  .tag{
+    margin-top: 25%;
+    font-size: 15px;
+  }
 }
 body{
   height: 100%;
@@ -1249,17 +1255,7 @@ h1{
      direction: ltr;
   }
 }
-.locate{
-  margin-top: 55px;
-  margin-left: 5%;
-  margin-right: 40%;
-  color: white;
-  font-size: 4vh;
-  font-family: 'Poppins', sans-serif;
-  text-align: center;
 
-  
-}
 /*
 #date{
   font-size: 4vh;
@@ -1281,15 +1277,22 @@ h1{
 }
 */
 
-.locate{
+.locate #date {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   font-size: 30px;
   font-family: 'Poppins', sans-serif;
-  padding-top: 0%;
+  margin-top: 10%;
   color: white;
+}
+
+@media only screen and (max-device-width: 1025px) {
+  .locate #date{
+    margin-top: 25%;
+    font-size: 15px;
+  }
 }
 
 
