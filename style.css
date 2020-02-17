@@ -976,7 +976,7 @@ div.panel.show {
 }
 
 #sponsor{
-  background-color: #4D92DD;
+  background-color: white;
   padding: 5%;
 }
 
@@ -1343,14 +1343,14 @@ h6 {
   font-size: 5.5rem;
   font-weight: normal;
   text-align: center;
-  color: white;
+  color: black;
   margin: 3rem auto 0;
 }
 
 
 h6 > a, h3 > a {
   text-decoration: none;
-  color: white;
+  color: black;
   z-index: 1;
 }
 
@@ -1381,30 +1381,23 @@ h6 > a:focus:before {
 /*RESPONSIVE PARTNERS PAGE LOGOS START*/
 
 .responsive {
-  margin-top: auto;
-margin-bottom: auto;
-margin: 2rem;
-width: auto;
-max-width: 30vw;
-max-height: 12vh;
-align-self: center;
-}
-.responsive : hover{
-  animation: 1s ease-in-out 2s 1 banner-icon forwards;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
 }
 /*RESPONSIVE PARTNERS PAGE LOGOS END*/
 .boxed {
-  border: 2px solid ;
+  border: 4px solid ;
   border-radius: 30px;
   border-color: linear-gradient(to bottom, #33ccff 0%, #66ffcc 100%);
 } 
+/*
 .boxed:hover{
-  border: 2px solid white;
+  border: 4px   solid white;
   border-radius: 30px;
   background: linear-gradient(to bottom, #33ccff 0%, #66ffcc 100%)
 }
-
-
+*/
 
 
 
