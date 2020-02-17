@@ -1437,12 +1437,13 @@ h6 > a:focus:before {
 @media only screen and (max-device-width: 1025px) {
 
   #About .text .abt{
-      text-align: justify;
+      text-align: left;
       text-decoration: none;
       font-family: "lato", sans-serif;
       color: white;
       font-size: 18px;
       margin: 0;
       padding: 0;
+      letter-spacing: 0.1px;
   }
 }
