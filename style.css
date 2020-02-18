@@ -1450,4 +1450,7 @@ h6 > a:focus:before {
   .abt{
     font-size: 17px;
   }
+  #About .text .abt{
+  font-size: 17px;
+  }
 }
