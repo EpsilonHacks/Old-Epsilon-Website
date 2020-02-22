@@ -1328,13 +1328,13 @@ h6 {
 }
 
 
-h6 > a, h3 > a {
+h6 > .title, h3 > .title {
   text-decoration: none;
   color: black;
   z-index: 1;
 }
 
-h6 > a:before {
+h6 > .title:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -1347,8 +1347,8 @@ h6 > a:before {
   transform: scaleX(0);
   transition: .25s linear;
 }
-h6 > a:hover:before,
-h6 > a:focus:before {
+h6 > .title:hover:before,
+h6 > .title:focus:before {
   visibility: visible;
   transform: scaleX(1);
 }
